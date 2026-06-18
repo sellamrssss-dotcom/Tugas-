@@ -11,9 +11,9 @@ let cards = [
         desc: "Layanan pembuatan website profesional untuk mendukung pertumbuhan dan kebutuhan bisnis Anda."
     },
     {
-        href: "penjualan.html",
+        href: "kurir.html",
         icon: "bi-truck",
-        title: "Penjualan",
+        title: "Kurir",
         desc: "Jasa penjualan kurir profesional untuk mendukung kebutuhan pengiriman bisnis Anda."
     },
     {
