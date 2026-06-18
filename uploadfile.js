@@ -3,7 +3,7 @@
 
 // Struktur data awal (bisa di-load dari server atau localStorage)
 const dataLayanan = {
-    kurir: {
+    penjualan: {
         judul: "Layanan Kurir Profesional",
         deskripsi: "Pengiriman cepat, aman, dan terpercaya untuk kebutuhan bisnis dan pribadi Anda.",
         fitur: [
@@ -45,8 +45,8 @@ const dataLayanan = {
 document.addEventListener('DOMContentLoaded', function() {
     // Cek halaman dan update konten sesuai data
     const path = window.location.pathname.toLowerCase();
-    if (path.includes('kurir.html')) {
-        updateLayanan('kurir');
+    if (path.includes('penjualan.html')) {
+        updateLayanan('penjualan');
     } else if (path.includes('pembersihan.html')) {
         updateLayanan('pembersihan');
     } else if (path.includes('website.html')) {
