@@ -40,6 +40,12 @@ let cards = [
         title: "Advance Program ",
         desc: "Program-program menarik yang kami tawarkan untuk meningkatkan keterampilan dan pengetahuan Anda."
     }
+    {
+        href: "penjualan.html",
+        icon: "bi-code-slash",
+        title: "Penjualan ",
+        desc: "Program-program menarik yang kami tawarkan untuk meningkatkan keterampilan dan pengetahuan Anda."
+    }
 ];
 
 function renderCards() {
